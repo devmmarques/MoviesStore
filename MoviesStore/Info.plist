@@ -18,6 +18,13 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>EnvironmentConfig</key>
+	<dict>
+		<key>HOST</key>
+		<string>https://api.themoviedb.org/</string>
+		<key>TOKEN</key>
+		<string>02d383a321936c773ae9fd3156306127</string>
+	</dict>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
