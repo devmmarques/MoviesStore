@@ -24,4 +24,9 @@ struct EnvironmentConfig {
         guard let value = environments?["TOKEN"] as? String else { return "" }
         return value
     }
+    
+    static var hostImage: String {
+        guard let value = environments?["HOST_IMAGE"] as? String else { return "" }
+        return value
+    }
 }
